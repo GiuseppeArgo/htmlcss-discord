@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+.container {
+    width: 60%
+}
+
+/* /common */
+
+.header {
+    background-color: #add8e6;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    height: 50px;
+    background-color: #daa520;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 25%;
+    justify-content: left;
+}
+
+.link {
+    width: 50%;
+    justify-content: center;
+}
+
+.login {
+    width: 25%;
+    justify-content: right;
+}
+
+/* main */
+
+/* first section */
+
+.first-section {
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section-content {
+    height: 350px;
+    background-color: purple;
+    width: 40%;
+    border: 1px solid black;
+}
+
+/* /first section */
+
+/* second-section */
+
+.second-section {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.second-row {
+    display: flex;
+    align-items: center;
+}
+
+.second-section-lcol {
+    height: 450px;
+    width: 60%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.second-section-rcol {
+    height: 450px;
+    width: 40%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+/* /secondsection */
+
+/* third section */
+
+.third-section {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    background-color: gray;
+}
+
+.third-row {
+    display: flex;
+    align-items: center;
+}
+
+.third-section-lcol {
+    height: 450px;
+    width: 40%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.third-section-rcol {
+    height: 450px;
+    width: 60%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+/* /third section */
+
+/* fourth section */
+
+.fourth-section {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.fourth-row {
+    display: flex;
+    align-items: center;
+}
+
+.fourth-section-lcol {
+    height: 450px;
+    width: 60%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.fourth-section-rcol {
+    height: 450px;
+    width: 40%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+/* /fourth section */
+
+/* fifth section */
+
+.fifth-section {
+    height: 900px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-section-content {
+    height: 850px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+/* /fifth section */
+
+/* /main */
+
+/* footer */
+
+/* upper footer */
+
+.upper-footer {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    background-color: #23272a;
+}
+
+.upper-footer-row {
+    display: flex;
+    align-items: center;
+}
+
+.big-upper-footer-col {
+    height: 450px;
+    width: 30%;
+    background-color:#f08080;
+    border: 1px solid black;
+}
+
+.small-upper-footer-col {
+    height: 450px;
+    width: calc(70% / 4);
+    background-color: #20b2aa;
+    border: 1px solid black;
+}
+
+/* /upper footer */
+
+/* lower footer */
+.lower-footer {
+    background-color: #23272a;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-items: end;
+    border-top: 1px solid white;
+}
+
+.lower-footer-row {
+    height: 70px;
+    background-color: #7fffd4;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    justify-content: left;
+    background-color: #ffb6c1;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.button {
+    justify-content: right;
+    background-color: #ffb6c1;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* /lower-footer */
