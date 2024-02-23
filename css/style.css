@@ -25,24 +25,46 @@ a {
 
 span {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 20px;
+    margin-right: 5px;
 }
 
 .button {
     padding: 15px 15px;
     border-radius: 25px;
-    color: white;
     vertical-align: middle;
+    background-color: white;
 }
 
 .wb {
     color: black;
-    background-color: white;
 }
 
 .bb {
     background-color: #23272a;
     margin-left: 25px;
+}
+
+.blue-b {
+    background-color: #7289da;
+    margin: 100px 0;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+p {
+    line-height: 35px;
+}
+
+.section-p {
+    font-size: 1.1rem;
+    margin-top: 25px;
+}
+
+.arrow {
+    margin: 0 5px 0 0;
 }
 /* /common */
 
@@ -86,7 +108,7 @@ span {
 
 /* main */
 
-/* first section */
+/* hero section */
 
 .hero {
     display: flex;
@@ -97,25 +119,22 @@ span {
     background-repeat: no-repeat;
     text-align: center;
     font-size: 1.3rem;
-    padding: 30px 10px;
-    margin-bottom: 100px;
+    padding: 90px 10px 190px;
     color: white;
 }
 
-h1{
+h1 {
     font-size: 3rem;
-    padding-top: 100px;
+    padding-top: 80px;
 }
-.hero-p{
+.hero-p {
     font-size: 1.3rem;
     padding: 34px;
+    margin-bottom: 20px;
 }
 
 .first-section-content {
-    height: 350px;
-    /* background-color: purple; */
     width: 50%;
-    /* border: 1px solid black; */
 }
 
 /* /first section */
@@ -124,8 +143,8 @@ h1{
 
 .second-section {
     display: flex;
-    height: 500px;
     justify-content: center;
+    padding: 70px;
 }
 
 .second-row {
@@ -134,17 +153,11 @@ h1{
 }
 
 .second-section-lcol {
-    height: 450px;
     width: 60%;
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 .second-section-rcol {
-    height: 450px;
     width: 40%;
-    background-color: pink;
-    border: 1px solid black;
 }
 
 /* /secondsection */
@@ -153,9 +166,9 @@ h1{
 
 .third-section {
     display: flex;
-    height: 500px;
     justify-content: center;
-    background-color: gray;
+    background-color: #f6f6f6;
+    padding: 70px;
 }
 
 .third-row {
@@ -164,17 +177,11 @@ h1{
 }
 
 .third-section-lcol {
-    height: 450px;
     width: 40%;
-    background-color: pink;
-    border: 1px solid black;
 }
 
 .third-section-rcol {
-    height: 450px;
     width: 60%;
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 /* /third section */
@@ -183,8 +190,8 @@ h1{
 
 .fourth-section {
     display: flex;
-    height: 500px;
     justify-content: center;
+    padding: 70px;
 }
 
 .fourth-row {
@@ -193,17 +200,11 @@ h1{
 }
 
 .fourth-section-lcol {
-    height: 450px;
     width: 60%;
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 .fourth-section-rcol {
-    height: 450px;
     width: 40%;
-    background-color: pink;
-    border: 1px solid black;
 }
 
 /* /fourth section */
@@ -211,17 +212,21 @@ h1{
 /* fifth section */
 
 .fifth-section {
-    height: 900px;
-    background-color: gray;
+    background-color: #f6f6f6;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 70px;
 }
 
 .fifth-section-content {
-    height: 850px;
-    background-color: green;
-    border: 1px solid black;
+    text-align: center;
+    padding: 50px 50px 100px 50px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 50px;
 }
 
 /* /fifth section */
@@ -234,7 +239,6 @@ h1{
 
 .upper-footer {
     display: flex;
-    height: 500px;
     justify-content: center;
     background-color: #23272a;
 }
