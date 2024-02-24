@@ -89,8 +89,8 @@ ul {
 
 .wave {
     background-image: url("../img/wave.svg");
-    background-size: contain;
-    filter: opacity(0.035);
+    background-size: cover;
+    filter: opacity(0.35);
 }
 
 .rotated {
