@@ -87,6 +87,16 @@ ul {
     margin-right: 15px;
 }
 
+.wave {
+    background-image: url("../img/wave.svg");
+    background-size: contain;
+    filter: opacity(0.035);
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
 /* /common */
 
 /* header */
@@ -345,6 +355,7 @@ h4 {
 /* /upper footer */
 
 /* lower footer */
+
 .lower-footer {
     background-color: #23272a;
     display: flex;
